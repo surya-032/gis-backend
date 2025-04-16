@@ -12,5 +12,5 @@ app.use(express.json());
 app.use("/", authRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server berjalan di 192.168.4.4:${PORT}`);
+    console.log(`Server berjalan http://localhost:${PORT}`);
 });
